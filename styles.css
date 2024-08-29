@@ -1,0 +1,130 @@
+/* Basic styles for the movie dashboard and details page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #search {
+    margin-top: 10px;
+    padding: 0.5rem;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  #movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .movie-card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    overflow: hidden;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #movie-details {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  #movie-poster {
+    width: 300px;
+    height: auto;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #search {
+    margin-top: 10px;
+    padding: 0.5rem;
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  #movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .movie-card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    overflow: hidden;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #movie-details {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  #movie-poster {
+    width: 300px;
+    height: auto;
+  }
+  
