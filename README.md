@@ -1,5 +1,6 @@
 # Movies-Hub
-https://anandkishore5252.github.io/Movies-Hub/👈website link .
+https://anandkishore5252.github.io/Movies-Hub/
+👈website link .
 You can access the code for this website from master branch.
 The project in question is a sophisticated movie search and information platform designed to offer a seamless and engaging user experience across all devices. This website leverages the capabilities of HTML, CSS, and JavaScript to deliver a responsive design, ensuring optimal functionality and aesthetics on various screen sizes and resolutions.
 
