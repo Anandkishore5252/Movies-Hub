@@ -1,88 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Movie Details</title>
-  <link rel="stylesheet" href="styles.css" />
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 10px 20px;
-      text-align: center;
-      position: relative;
-    }
-    #back-to-movies {
-      color: #ffcc00;
-      text-decoration: none;
-      font-size: 1.2em;
-      position: absolute;
-      top: 10px;
-      right: 20px;
-    }
-    #back-to-movies:hover {
-      text-decoration: underline;
-    }
-    main {
-      padding: 20px;
-      max-width: 800px;
-      margin: 20px auto;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    #movie-title {
-      font-size: 2em;
-      margin: 0 0 10px;
-    }
-    #movie-poster {
-      max-width: 100%;
-      border-radius: 8px;
-      margin-bottom: 15px;
-    }
-    #movie-overview, #movie-release-date, #movie-rating {
-      font-size: 1.1em;
-      margin-bottom: 10px;
-    }
-    #close-btn {
-      background-color: #ff3333;
-      color: #fff;
-      border: none;
-      border-radius: 50%;
-      width: 30px;
-      height: 30px;
-      font-size: 1.5em;
-      cursor: pointer;
-      position: absolute;
-      top: 10px;
-      right: 10px;
-    }
-    #close-btn:hover {
-      background-color: #cc0000;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Movie Details</h1>
-    <a href="index.html" id="back-to-movies" data-navigation="home">Back to Home</a>
-  </header>
-  <main id="movie-details" aria-labelledby="movie-title">
-    <button id="close-btn" aria-label="Close movie details" data-action="close">&times;</button>
-    <h2 id="movie-title" data-title="movieTitle">Title Here</h2>
-    <img id="movie-poster" src="" alt="Movie Poster" data-image="poster" />
-    <p id="movie-overview" data-info="overview">Overview here</p>
-    <p id="movie-release-date" data-info="releaseDate">Release Date: YYYY-MM-DD</p>
-    <p id="movie-rating" data-info="rating">Rating: X/10</p>
-  </main>
-  <script src="movie-details.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Movie Details</h1>
+      <a href="index.html" id="back-to-movies">Back to Home</a>
+    </header>
+    <main id="movie-details">
+      <button id="close-btn" aria-label="Close">&times;</button>
+      <h2 id="movie-title"></h2>
+      <img id="movie-poster" src="" alt="Movie Poster" />
+      <p id="movie-overview"></p>
+      <p id="movie-release-date"></p>
+      <p id="movie-rating"></p>
+    </main>
+    <script src="movie-details.js"></script>
+  </body>
 </html>
