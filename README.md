@@ -1,6 +1,5 @@
 # Movies-Hub
-https://anandkishore5252.github.io/Movies-Hub/
-website link 
+https://anandkishore5252.github.io/Movies-Hub/👈website link 
 The project in question is a sophisticated movie search and information platform designed to offer a seamless and engaging user experience across all devices. This website leverages the capabilities of HTML, CSS, and JavaScript to deliver a responsive design, ensuring optimal functionality and aesthetics on various screen sizes and resolutions.
 
 The core functionality of the website revolves around fetching and displaying comprehensive movie details. Utilizing the TMDb (The Movie Database) API, the platform retrieves dynamic data including cast information, ratings, and detailed descriptions of movies. By integrating this API, the website ensures that users have access to accurate and up-to-date movie information.
