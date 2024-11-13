@@ -13,4 +13,9 @@ Dynamic Data Integration: Through the TMDb API, the site offers real-time movie 
 Detailed Movie Information: Users can search for movies and view in-depth details, including cast members, ratings, and descriptive summaries.
 This implementation not only showcases technical proficiency in web development but also emphasizes a commitment to delivering high-quality, user-centric design and functionality.
 ![WhatsApp Image 2024-08-31 at 10 19 41 AM](https://github.com/user-attachments/assets/f78158a7-648f-4aeb-aa11-88b58bdcd753)
+![Screenshot (40)](https://github.com/user-attachments/assets/b055d6c2-b708-40b0-9f38-0cb768fb0161)
+![Screenshot (39)](https://github.com/user-attachments/assets/bc5c3639-5ee3-49b2-908e-f5f9c7cc01b0)
+
+
+
 
